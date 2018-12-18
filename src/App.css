@@ -1,0 +1,136 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background-color: #92a8d1;
+  height: 30px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#main {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.gameGridCell {
+    vertical-align: middle;
+    max-width: 60px;
+    max-height: 60px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 3px solid #92a8d1;
+}
+
+.table-bordered {
+  border-collapse: collapse;
+  width: 360px;
+  height: 360px;
+}
+
+#MessageTable {
+  text-align: left;
+  overflow-y: auto;
+  max-width:400px; 
+  max-height:360px; 
+  height:360px;
+  width: 400px;
+}
+
+.lettercell {
+  max-width: 60px;
+  max-height: 60px;
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  text-align: center;
+  border: 2px solid #92a8d1;
+  border-collapse: collapse;
+}
+.opponentLettersGrid {
+  max-width: 60px;
+  max-height: 60px;
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  text-align: center;
+  border: 3px solid #92a8d1;
+  border-collapse: collapse;
+}
+
+#TurnOwnerLetters {
+  display: block;
+}
+
+
+nav {
+	background-color: #92a8d1;
+	overflow: hidden;
+	/* padding: 1em; */
+}
+
+nav	a {
+		color: #000;
+}
+
+nav	a:visited {
+		color: #000;
+}
+
+nav .navWide {
+	display: none;
+	margin: 0 auto;
+}
+
+nav .navWide .wideDiv {
+	text-align: left;
+}
+
+nav .navWide .wideDiv a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 2em;
+}
+nav	.navNarrow i {
+	float: left;
+	cursor: pointer;
+	color: #000;
+}
+
+nav .navNarrow .narrowLinks a {
+	text-decoration: none;
+	display: block;
+	float: left;
+	clear: left;
+	padding: 0.5em 0;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 480px) {
+	
+	nav .navWide {
+		display: block;
+	}
+
+	nav .navNarrow {
+		display: none;
+	}
+}
