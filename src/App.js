@@ -6,7 +6,7 @@ import './App.css';
 class App extends Component {
 
   componentDidMount = () => {
-    const hubConnection = new HubConnection('https://levent-reactjs.azurewebsites.net/game');
+    const hubConnection = new HubConnection('https://levent-server.azurewebsites.net/game');
 
     this.setState({ hubConnection }, () => {
       this.state.hubConnection
